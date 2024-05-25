@@ -20,8 +20,8 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center px-2 md:px-0 text-center sm:text-left justify-center md:justify-self-start"
         >
-          <h1 className="text-white md:mt-0 mt-10 mb-4 md:text-5xl text-4xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="lg:text-7xl md:mt-0 mt-10  md:text-6xl text-5xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent ">
+          <h1 className="text-white my-5 md:mt-0 mt-10 mb-4 md:text-4xl text-3xl lg:text-8xl lg:leading-normal font-extrabold">
+            <span className="lg:text-7xl md:mt-0 mt-10  md:text-6xl text-4xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent ">
               Hello, I&apos;m{" "}
               <br className="md:hidden"></br>
                {" "} SAKET NANDA
@@ -42,7 +42,7 @@ const HeroSection = () => {
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 text-pretty lg:text-xl">
           Passionate web developer with a knack for creating dynamic and responsive websites using the latest technologies.
           </p>
-          <div className="flex text-center flex-col  md:flex-row md:justify-start  justify-center ">
+          <div className="p-8  md:p-0 flex text-center flex-col  md:flex-row md:justify-start  justify-center ">
             <Link
               href="/#contact"
               className="md:my-auto px-5 py-2  my-2  bg-pink-700 rounded-full"

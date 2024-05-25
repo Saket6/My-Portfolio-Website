@@ -95,7 +95,7 @@ const AboutSection = () => {
     <section className="text-white mt-10 h-max " id="about">
       <div className="min-h-screen  md:grid lg:grid lg:grid-cols-[40%,1fr] gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className="flex items-center justify-center md:block">
-        <Image src="/images/picofme2.png" className="h-80 w-80 md:h-full md:w-full" alt="heroImg" width={500} height={500} />
+        <Image src="/images/picofme2.png" className="h-52 w-52 md:h-full md:w-full" alt="heroImg" width={500} height={500} />
         </div>
         <div className="mt-4 md:mt-0 text-left  md:text-left flex flex-col h-full justify-center ">
           <h2 className="md:text-5xl text-4xl md:mt-0 mt-10 font-bold  mb-8 bg-gradient-to-r from-yellow-500 via-orange-500 to-yellow-500 bg-clip-text text-transparent ">About Me</h2>

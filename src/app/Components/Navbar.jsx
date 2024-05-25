@@ -74,7 +74,7 @@ const Navbar = () => {
         {navLinks.map((link, index) => (
 
               <li key={index} className=" list-none my-2">
-                <Link href={link.path} className=" text-xl p-2  hover:border-b-2 hover:border-pink-600 " > {link.title} </Link>
+                <Link href={link.path} className=" text-sm p-2  hover:border-b-2 hover:border-pink-600 " > {link.title} </Link>
               </li>
             ))}
       </div>

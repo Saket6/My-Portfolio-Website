@@ -5,7 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 export default function ProjectCard({ project }) {
     return (
-        <div className='relative rounded-2xl flex flex-col justify-center'>
+        <div className='relative p-3 md:p-0 rounded-2xl flex flex-col justify-center'>
             <div className='relative h-50'>
                 <div className='h-72 relative'>
                 <Image

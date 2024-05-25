@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-gray-950">
       <Navbar/>
-      <div className="container1 lg:px-32 md:px-25 px-10">
+      <div className="container1 lg:px-32 md:px-25 px-4">
         <HeroSection/>
         {/* <div className="animate-bounce">
         <ArrowCircleUpIcon className="text-6xl"/>

@@ -16,7 +16,7 @@ export default function SkillsCard({ topic, progress }) {
     //     console.log("progress for" + topic + ": " + progress)
     // }, [])
     return (
-        <motion.div className='flex flex-col justify-center items-center p-5 rounded-3xl cursor-pointer hover:scale-105 transition-all lg:bg-slate-900 '
+        <motion.div className='flex flex-col justify-center items-center rounded-3xl cursor-pointer  transition-all  '
         // variants={cardVariants}
         // initial="initial"
         // animate={isInView ? "animate" : "initial"}
@@ -36,7 +36,7 @@ export default function SkillsCard({ topic, progress }) {
         >
             <h3 className='md:text-3xl text-xl text-white mb-5 md:mb-10'> {topic} </h3>
 
-            <div className=' md:h-32 h-24 w-32 ' >
+            <div className=' md:h-64 h-32 w-32 md:w-52 mx-7  ' >
             <CircularProgressbar
                 value={progress}
                 text={`${progress}%`}

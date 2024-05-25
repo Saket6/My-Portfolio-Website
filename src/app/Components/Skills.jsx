@@ -47,8 +47,8 @@ export default function Skills() {
 
     return (
         <div id='skills' className='mb-40' >
-            <h1 className='text-4xl text-center  mb-14 mt-20'>My <span className='text-yellow-500 font-bold'>Skills</span></h1>
-            <div className=' grid  grid-cols-1 lg:grid-cols-3 px-14 justify-center text-center gap-x-7 gap-y-7'>
+            <h1 className='text-4xl text-center  mb-14  md:mt-20'>My <span className='text-yellow-500 font-bold'>Skills</span></h1>
+            <div className='flex-col flex gap-3  lg:flex-row justify-center text-center'>
                 {
                     skills1.map((skill, index) => {
                         return (

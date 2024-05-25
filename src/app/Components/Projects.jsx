@@ -85,7 +85,7 @@ export default function Projects() {
   const [currTag, setTag] = useState('All');
 
   return (
-    <div className='flex flex-col justify-center items-center mb-48 mt-10 pt-32' id='projects'>
+    <div className='flex flex-col justify-center items-center mb-48 mt-10 md:pt-32' id='projects'>
       <h1 className='text-4xl text-center mb-14 '>My <span className='text-yellow-500 font-bold'>Projects</span></h1>
       <ul className='text-center flex md:p-2 '>
         {
@@ -96,8 +96,8 @@ export default function Projects() {
                 onClick={() => setTag(tag.name)}
                 className={
                   currTag === tag.name
-                    ? 'py-1 px-1 mx-1  rounded-full md:px-5 md:py-2 border-1 md:border-2 font-bold bg-slate-50 text-black md:text-xl mb-8 hover:bg-slate-50 hover:text-black transition-all duration-200 hover:border-black md:mx-2  border-white cursor-pointer list-none'
-                    : 'py-1 px-1 mx-1 rounded-full md:px-5 md:py-2 border-1 md:border-2 font-bold  md:text-xl mb-8 hover:bg-slate-50 hover:text-black transition-all duration-200 hover:border-black md:mx-2  border-white cursor-pointer list-none'
+                    ? 'py-1 text-sm px-2 mx-1  rounded-full md:px-5 md:py-2 border-1 md:border-2 font-bold bg-slate-50 text-black md:text-xl mb-8 hover:bg-slate-50 hover:text-black transition-all duration-200 hover:border-black md:mx-2  border-white cursor-pointer list-none'
+                    : 'py-1 text-sm px-2 mx-1 rounded-full md:px-5 md:py-2 border-1 md:border-2 font-bold  md:text-xl mb-8 hover:bg-slate-50 hover:text-black transition-all duration-200 hover:border-black md:mx-2  border-white cursor-pointer list-none'
                 }
               >
                 {tag.name}
