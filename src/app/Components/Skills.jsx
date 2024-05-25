@@ -52,8 +52,9 @@ export default function Skills() {
                 {
                     skills1.map((skill, index) => {
                         return (
-                            <>
+                           
                                 <motion.div
+                                    key={index}
                                     initial={
                                         {
                                             opacity: 0,
@@ -76,7 +77,7 @@ export default function Skills() {
                                 >
                                     <SkillsCard topic={skill.topic} progress={skill.progress} key={index} />
                                 </motion.div>
-                            </>
+                          
 
                         )
                     })
@@ -87,8 +88,9 @@ export default function Skills() {
                 {
                     skills2.map((skill, index) => {
                         return (
-                            <>
+                        
                                 <motion.div
+                                    key={index}
                                     initial={
                                         {
                                             opacity: 0,
@@ -116,7 +118,6 @@ export default function Skills() {
 
                                     <ProgressBar borderRadius='3px' topic={skill.topic} completed={skill.progress} key={index} />
                                 </motion.div>
-                            </>
 
                         )
                     })

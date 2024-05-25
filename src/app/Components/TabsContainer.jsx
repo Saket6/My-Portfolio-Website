@@ -23,12 +23,12 @@ export default function LabTabs({ tabItems }) {
         </Box>
         <TabPanel value="1">
           {
-            tabItems.education.map((e) => {
+            tabItems.education.map((e,index) => {
               return(
-                <>
+                <div key={index}>
                 <h1 className='text-yellow-500 mb-2'>{e.duration}</h1>
                 <p>{e.institution}</p>
-                </>
+                </div>
                 
               )
             })
@@ -39,12 +39,12 @@ export default function LabTabs({ tabItems }) {
         <ul className=' list-disc list-outside'>
         {
          
-            tabItems.experience.map((e) => {
+            tabItems.experience.map((e,index) => {
              
               return(
-                <>
+                <div key={index}>
                 <li className='py-3 '>{e.text}</li>
-                </>
+                </div>
             
                 
               )

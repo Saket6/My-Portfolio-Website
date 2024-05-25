@@ -11,10 +11,9 @@ export default function ProjectCard({ project }) {
                 <Image
                     src={project.image}
                     className='rounded-t-2xl h-56'
-                    // height={600}
-                    // width={500}
+                   
                     layout="fill"
-                    objectFit="cover"
+                    // objectFit="cover"
                     alt={project.title}
                 />
                 </div>
