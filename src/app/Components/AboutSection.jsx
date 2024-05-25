@@ -99,7 +99,7 @@ const AboutSection = () => {
         </div>
         <div className="mt-4 md:mt-0 text-left  md:text-left flex flex-col h-full justify-center ">
           <h2 className="md:text-5xl text-4xl md:mt-0 mt-10 font-bold  mb-8 bg-gradient-to-r from-yellow-500 via-orange-500 to-yellow-500 bg-clip-text text-transparent ">About Me</h2>
-          <p className="md:text-3xl text-2xl" >Hello! I'm <span className=" text-yellow-400  ">Saket Nanda</span> </p>
+          <p className="md:text-3xl text-2xl" >Hello, I&apos;m{" "}<span className=" text-yellow-400  ">Saket Nanda</span> </p>
           <p className="text-base lg:text-l">
             I am a full stack web developer with a strong passion for building 
             interactive and responsive web applications. My expertise includes JavaScript, 

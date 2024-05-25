@@ -22,7 +22,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white md:mt-0 mt-10 mb-4 md:text-5xl text-4xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="lg:text-7xl md:mt-0 mt-10  md:text-6xl text-5xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent ">
-              Hello, I'm 
+              Hello, I&apos;m{" "}
               <br className="md:hidden"></br>
                {" "} SAKET NANDA
             </span>

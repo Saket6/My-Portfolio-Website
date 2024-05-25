@@ -12,9 +12,9 @@ export default function SkillsCard({ topic, progress }) {
         // animate: { y: 0, opacity: 1 },
       };
 
-    useEffect(() => {
-        console.log("progress for" + topic + ": " + progress)
-    }, [])
+    // useEffect(() => {
+    //     console.log("progress for" + topic + ": " + progress)
+    // }, [])
     return (
         <motion.div className='flex flex-col justify-center items-center p-5 rounded-3xl cursor-pointer hover:scale-105 transition-all lg:bg-slate-900 '
         // variants={cardVariants}
